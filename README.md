@@ -4,7 +4,7 @@ Template for building streamlit apps efficiently
 ## About
 
 - This is a template for layout and efficient directory structure for a streamlit demo.
-- If you want to use, clone the repo, and copy-paste all files in your working directory.
+- If you want to use, click on 'Use this template' and create your own repo, or clone the repo, and copy-paste all files in your working directory.
 
 ## Files and directory
 **app.py** - main script for the streamlit frontend  
