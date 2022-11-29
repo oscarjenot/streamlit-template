@@ -9,8 +9,8 @@ if not AUTH0_CLIENT_ID and not AUTH0_DOMAIN:
     AUTH0_CLIENT_ID = os.getenv("AUTH0_CLIENT_ID")
 
 
-class appConstants:
-    # _______________ Authentification  _______________
+class AppConstants:
+    # _______________ Authentication  _______________
     AUTH0_DOMAIN = AUTH0_DOMAIN
     AUTH0_CLIENT_ID = AUTH0_CLIENT_ID
     # _______________ Page attributes _______________
@@ -34,7 +34,7 @@ class appConstants:
                 </style>
                 """
     # _______________ Title attributes _______________
-    LOGO_URL = "https://docs.streamlit.io/logo.svg"  # imput any image url
+    LOGO_URL = "https://docs.streamlit.io/logo.svg"  # impute any image url
     TITLE = "# Template Title"
     SUBTITLE = "  **Streamlit Template subtitle (use markdown)**"
     # _______________ About section attributes _______________

@@ -1,7 +1,6 @@
 # Imports
 
 
-
 def hello_streamlit():
     """
     Example function to call from app.py

@@ -9,9 +9,9 @@ Template for building streamlit apps efficiently
 ## Files and directory
 **app.py** - main script for the streamlit frontend  
 **.streamlit/** - config folder for streamlit app configurations (colors, font, themes, etc)  
-**frontend/** - directory with all the 'frontend' scripts and rendering functions and constants. The idea is to keep the app.py as simple as possinble.    
-**backend/** - directory with all of the backend scripts and computations.  
-**.env & .env.template** - environement variable (AUTH0 secret variables for example). Never push to Git (add .env to .gitignore).      
+**frontend/** - directory with all the 'frontend' scripts and rendering functions and constants. The idea is to keep the app.py as simple as possible.    
+**backend/** - directory with all the backend scripts and computations.  
+**.env & .env.template** - environment variable (AUTH0 secret variables for example). Never push to Git (add .env to .gitignore).      
 **requirements.txt** - If you use pip, fill this file with the needed packages.  
 
 
