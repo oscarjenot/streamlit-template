@@ -67,6 +67,8 @@ def line():
     """Call line() to add a horizontal line"""
     st.markdown("""---""")
 
+# _______________ Frontend layout functions _______________
+
 def display_pdf(uploaded_pdf__file):
     """
     On streamlit, input the uploaded pdf from a st.file_uploader widget.
