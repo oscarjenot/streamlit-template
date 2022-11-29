@@ -27,7 +27,7 @@ def page_config():
         page_title=appConstants.PAGE_TITLE,
         page_icon=appConstants.PAGE_ICON,
         layout=appConstants.LAYOUT,
-        initial_sidebar_state="visible",
+        initial_sidebar_state="auto",
     )    
     st.markdown(appConstants.GLOBAL_STYLES, unsafe_allow_html=True)
 
@@ -36,11 +36,12 @@ def title():
     with st.container():
         line()
         c1, e, c2 = st.columns([1, 0.1, 8])
-        with st.sidebar:
+        with c1:
             space(10)
             st.image(appConstants.LOGO_URL, use_column_width=True)
-        st.markdown(appConstants.TITLE)
-        st.markdown(appConstants.SUBTITLE)
+        with c2:
+            st.markdown(appConstants.TITLE)
+            st.markdown(appConstants.SUBTITLE)
         line()
 
 def about_section():
