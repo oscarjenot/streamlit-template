@@ -1,0 +1,5 @@
+streamlit==1.15.1
+python-dotenv==0.21.0
+
+# TODO: Upgrade once this issue is closed: https://github.com/conradbez/streamlit-auth0/issues/11
+git+https://github.com/eluzhnica/streamlit-auth0.git@fix-old-universal-login-builds#egg=streamlit-auth0-component

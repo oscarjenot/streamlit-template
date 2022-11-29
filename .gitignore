@@ -1,0 +1,12 @@
+__pycache__/
+venv/
+.venv/
+.env
+.env/
+.idea
+.DS_Store
+.amlignore
+*.amltmp 
+*.amltemp
+.idea/
+.ipynb_checkpoints/
