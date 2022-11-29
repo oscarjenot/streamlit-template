@@ -33,7 +33,7 @@ def main():
     # Page configuration
     streamlit_utils.page_config()
 
-    # TODO: Uncomment when Auth0 component is ready or remove if you don't need authentification
+    # # TODO: Uncomment when Auth0 component is ready or remove if you don't need authentification
     # is_user_authenticated = streamlit_utils.auth()
     # if is_user_authenticated:
     #     render()
